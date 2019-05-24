@@ -9,5 +9,6 @@ RUN apt-get install -y software-properties-common
 RUN apt-get install -y texlive-lang-japanese
 
 RUN apt-get install -y texlive-latex-extra
+RUN apt-get install -y texlive-fonts-extra
 
 WORKDIR /root
